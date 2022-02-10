@@ -94,7 +94,7 @@ onChecked = e => {
  <input type="text" name="telefono" placeholder="ingrese su teléfono" onChange={this.onChange} value={this.state.telefono || ""}/> <br/>
 
 <label htmlFor="estudios" className="label">Estudios cursados:</label>
-<div><label htmlFor="estudios2" className="label2">Primaria</label> 
+<div className="labelcheck"><label htmlFor="estudios2" className="label2">Primaria</label> 
 <input type="checkbox" name="estudios" id="primaria" value="primaria" onChange={this.onChecked}/>&nbsp; &nbsp;
 <label htmlFor="estudios2" className="label2">Secundaria</label> 
 <input type="checkbox" name="estudios" id="secundaria" value="secundaria" onChange={this.onChecked}/>&nbsp; &nbsp;
