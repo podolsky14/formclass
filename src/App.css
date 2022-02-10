@@ -63,7 +63,7 @@ padding:7px;
 }
 
 @media screen and (max-width: 322px){
-  .checklabel{
+  .labelcheck{
     display: flex;
     flex-direction: column;
     align-items: center;
