@@ -54,7 +54,7 @@ color: black
     color: black
 }
 
-@media screen and (max-width: 745px){
+@media screen and (max-width: 765px){
 .formulario{
   width: 94%;
 padding:7px;
