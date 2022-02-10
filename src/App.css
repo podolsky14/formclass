@@ -60,5 +60,13 @@ color: black
   width: 100%;
 padding:7px;
 }
-
 }
+
+@media screen and (max-width: 319px){
+  .label2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+  }
