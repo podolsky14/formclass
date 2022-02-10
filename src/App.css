@@ -62,11 +62,14 @@ padding:7px;
 }
 }
 
-@media screen and (max-width: 319px){
-  .label2{
+@media screen and (max-width: 322px){
+  .checklabel{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 13px;
+    padding-top: 12px;
+
   }
+
+ 
   }
